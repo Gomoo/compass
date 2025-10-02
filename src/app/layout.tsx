@@ -26,17 +26,17 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta charSet="utf-8" />
-        <title>Bluewave- Webflow HTML website template</title>
+        <title>Compass- The AI powered security for your digital assets.</title>
         <meta
-          content="Modern SaaS Webflow template designed for AI startups and software businesses. Clean, fast, and optimized to help you grow and convert customers."
+          content="Your business runs on digital assets — we safeguard them. From social media accounts to wallet addresses, we keep your digital presence secure and help you recover fast when things go wrong."
           name="description"
         />
         <meta
-          content="Bluewave- Webflow HTML website template"
+          content="Compass- The AI powered security for your digital assets."
           property="og:title"
         />
         <meta
-          content="Modern SaaS Webflow template designed for AI startups and software businesses. Clean, fast, and optimized to help you grow and convert customers."
+          content="Your business runs on digital assets — we safeguard them. From social media accounts to wallet addresses, we keep your digital presence secure and help you recover fast when things go wrong."
           property="og:description"
         />
         <meta
@@ -44,11 +44,11 @@ export default function RootLayout({
           property="og:image"
         />
         <meta
-          content="Bluewave- Webflow HTML website template"
+          content="Compass- The AI powered security for your digital assets."
           property="twitter:title"
         />
         <meta
-          content="Modern SaaS Webflow template designed for AI startups and software businesses. Clean, fast, and optimized to help you grow and convert customers."
+          content="Your business runs on digital assets — we safeguard them. From social media accounts to wallet addresses, we keep your digital presence secure and help you recover fast when things go wrong."
           property="twitter:description"
         />
         <meta property="og:type" content="website" />
