@@ -49,18 +49,18 @@ function Testimonial() {
                           {test.quote}
                         </div>
                         <div className="testimonial-author-wrap">
-                          <div className="image-wrap-author-testimonial">
+                          {/* <div className="image-wrap-author-testimonial">
                             <img
                               src={test.img}
                               loading="lazy"
                               alt="Testimonial Avatar"
                               className="image-cover"
                             />
-                          </div>
+                          </div> */}
                           <div className="text-wrap-testimonial-tile">
                             <div className="text-small">{test.author}</div>
                             <div className="text-small text-gray-9">
-                              Marketing Manager
+                             {test?.title}
                             </div>
                           </div>
                         </div>
@@ -69,24 +69,24 @@ function Testimonial() {
                 )}
               </div>
               <div className="single-marquee-testimonials">
-               {testimonials.map((test,i)=> (
+                {testimonials.map((test,i)=> (
                     <div key={i} className="card-testimonial">
                         <div>
                           {test.quote}
                         </div>
                         <div className="testimonial-author-wrap">
-                          <div className="image-wrap-author-testimonial">
+                          {/* <div className="image-wrap-author-testimonial">
                             <img
                               src={test.img}
                               loading="lazy"
                               alt="Testimonial Avatar"
                               className="image-cover"
                             />
-                          </div>
+                          </div> */}
                           <div className="text-wrap-testimonial-tile">
                             <div className="text-small">{test.author}</div>
                             <div className="text-small text-gray-9">
-                              Marketing Manager
+                             {test?.title}
                             </div>
                           </div>
                         </div>
@@ -95,24 +95,24 @@ function Testimonial() {
                 )}
               </div>
               <div className="single-marquee-testimonials">
-               {testimonials.map((test,i)=> (
+                {testimonials.map((test,i)=> (
                     <div key={i} className="card-testimonial">
                         <div>
                           {test.quote}
                         </div>
                         <div className="testimonial-author-wrap">
-                          <div className="image-wrap-author-testimonial">
+                          {/* <div className="image-wrap-author-testimonial">
                             <img
                               src={test.img}
                               loading="lazy"
                               alt="Testimonial Avatar"
                               className="image-cover"
                             />
-                          </div>
+                          </div> */}
                           <div className="text-wrap-testimonial-tile">
                             <div className="text-small">{test.author}</div>
                             <div className="text-small text-gray-9">
-                              Marketing Manager
+                             {test?.title}
                             </div>
                           </div>
                         </div>
@@ -121,24 +121,24 @@ function Testimonial() {
                 )}
               </div>
               <div className="single-marquee-testimonials">
-               {testimonials.map((test,i)=> (
+                {testimonials.map((test,i)=> (
                     <div key={i} className="card-testimonial">
                         <div>
                           {test.quote}
                         </div>
                         <div className="testimonial-author-wrap">
-                          <div className="image-wrap-author-testimonial">
+                          {/* <div className="image-wrap-author-testimonial">
                             <img
                               src={test.img}
                               loading="lazy"
                               alt="Testimonial Avatar"
                               className="image-cover"
                             />
-                          </div>
+                          </div> */}
                           <div className="text-wrap-testimonial-tile">
                             <div className="text-small">{test.author}</div>
                             <div className="text-small text-gray-9">
-                              Marketing Manager
+                             {test?.title}
                             </div>
                           </div>
                         </div>
@@ -154,24 +154,24 @@ function Testimonial() {
               className="marquee-testimonials"
             >
               <div className="single-marquee-testimonials">
-                  {testimonials.map((test,i)=> (
+                   {testimonials.map((test,i)=> (
                     <div key={i} className="card-testimonial">
                         <div>
                           {test.quote}
                         </div>
                         <div className="testimonial-author-wrap">
-                          <div className="image-wrap-author-testimonial">
+                          {/* <div className="image-wrap-author-testimonial">
                             <img
                               src={test.img}
                               loading="lazy"
                               alt="Testimonial Avatar"
                               className="image-cover"
                             />
-                          </div>
+                          </div> */}
                           <div className="text-wrap-testimonial-tile">
                             <div className="text-small">{test.author}</div>
                             <div className="text-small text-gray-9">
-                              Marketing Manager
+                             {test?.title}
                             </div>
                           </div>
                         </div>
@@ -180,24 +180,24 @@ function Testimonial() {
                 )}
               </div>
               <div className="single-marquee-testimonials">
-                  {testimonials.map((test,i)=> (
+                   {testimonials.map((test,i)=> (
                     <div key={i} className="card-testimonial">
                         <div>
                           {test.quote}
                         </div>
                         <div className="testimonial-author-wrap">
-                          <div className="image-wrap-author-testimonial">
+                          {/* <div className="image-wrap-author-testimonial">
                             <img
                               src={test.img}
                               loading="lazy"
                               alt="Testimonial Avatar"
                               className="image-cover"
                             />
-                          </div>
+                          </div> */}
                           <div className="text-wrap-testimonial-tile">
                             <div className="text-small">{test.author}</div>
                             <div className="text-small text-gray-9">
-                              Marketing Manager
+                             {test?.title}
                             </div>
                           </div>
                         </div>
@@ -206,24 +206,24 @@ function Testimonial() {
                 )}
               </div>
               <div className="single-marquee-testimonials">
-                  {testimonials.map((test,i)=> (
+                   {testimonials.map((test,i)=> (
                     <div key={i} className="card-testimonial">
                         <div>
                           {test.quote}
                         </div>
                         <div className="testimonial-author-wrap">
-                          <div className="image-wrap-author-testimonial">
+                          {/* <div className="image-wrap-author-testimonial">
                             <img
                               src={test.img}
                               loading="lazy"
                               alt="Testimonial Avatar"
                               className="image-cover"
                             />
-                          </div>
+                          </div> */}
                           <div className="text-wrap-testimonial-tile">
                             <div className="text-small">{test.author}</div>
                             <div className="text-small text-gray-9">
-                              Marketing Manager
+                             {test?.title}
                             </div>
                           </div>
                         </div>
@@ -232,24 +232,24 @@ function Testimonial() {
                 )}
               </div>
               <div className="single-marquee-testimonials">
-                  {testimonials.map((test,i)=> (
+                   {testimonials.map((test,i)=> (
                     <div key={i} className="card-testimonial">
                         <div>
                           {test.quote}
                         </div>
                         <div className="testimonial-author-wrap">
-                          <div className="image-wrap-author-testimonial">
+                          {/* <div className="image-wrap-author-testimonial">
                             <img
                               src={test.img}
                               loading="lazy"
                               alt="Testimonial Avatar"
                               className="image-cover"
                             />
-                          </div>
+                          </div> */}
                           <div className="text-wrap-testimonial-tile">
                             <div className="text-small">{test.author}</div>
                             <div className="text-small text-gray-9">
-                              Marketing Manager
+                             {test?.title}
                             </div>
                           </div>
                         </div>
@@ -265,24 +265,24 @@ function Testimonial() {
               className="marquee-testimonials"
             >
               <div className="single-marquee-testimonials">
-                 {testimonials.map((test,i)=> (
+                  {testimonials.map((test,i)=> (
                     <div key={i} className="card-testimonial">
                         <div>
                           {test.quote}
                         </div>
                         <div className="testimonial-author-wrap">
-                          <div className="image-wrap-author-testimonial">
+                          {/* <div className="image-wrap-author-testimonial">
                             <img
                               src={test.img}
                               loading="lazy"
                               alt="Testimonial Avatar"
                               className="image-cover"
                             />
-                          </div>
+                          </div> */}
                           <div className="text-wrap-testimonial-tile">
                             <div className="text-small">{test.author}</div>
                             <div className="text-small text-gray-9">
-                              Marketing Manager
+                             {test?.title}
                             </div>
                           </div>
                         </div>
@@ -291,24 +291,24 @@ function Testimonial() {
                 )}
               </div>
               <div className="single-marquee-testimonials">
-                 {testimonials.map((test,i)=> (
+                  {testimonials.map((test,i)=> (
                     <div key={i} className="card-testimonial">
                         <div>
                           {test.quote}
                         </div>
                         <div className="testimonial-author-wrap">
-                          <div className="image-wrap-author-testimonial">
+                          {/* <div className="image-wrap-author-testimonial">
                             <img
                               src={test.img}
                               loading="lazy"
                               alt="Testimonial Avatar"
                               className="image-cover"
                             />
-                          </div>
+                          </div> */}
                           <div className="text-wrap-testimonial-tile">
                             <div className="text-small">{test.author}</div>
                             <div className="text-small text-gray-9">
-                              Marketing Manager
+                             {test?.title}
                             </div>
                           </div>
                         </div>
@@ -317,24 +317,24 @@ function Testimonial() {
                 )}
               </div>
               <div className="single-marquee-testimonials">
-                 {testimonials.map((test,i)=> (
+                  {testimonials.map((test,i)=> (
                     <div key={i} className="card-testimonial">
                         <div>
                           {test.quote}
                         </div>
                         <div className="testimonial-author-wrap">
-                          <div className="image-wrap-author-testimonial">
+                          {/* <div className="image-wrap-author-testimonial">
                             <img
                               src={test.img}
                               loading="lazy"
                               alt="Testimonial Avatar"
                               className="image-cover"
                             />
-                          </div>
+                          </div> */}
                           <div className="text-wrap-testimonial-tile">
                             <div className="text-small">{test.author}</div>
                             <div className="text-small text-gray-9">
-                              Marketing Manager
+                             {test?.title}
                             </div>
                           </div>
                         </div>
@@ -343,24 +343,24 @@ function Testimonial() {
                 )}
               </div>
               <div className="single-marquee-testimonials">
-                 {testimonials.map((test,i)=> (
+                  {testimonials.map((test,i)=> (
                     <div key={i} className="card-testimonial">
                         <div>
                           {test.quote}
                         </div>
                         <div className="testimonial-author-wrap">
-                          <div className="image-wrap-author-testimonial">
+                          {/* <div className="image-wrap-author-testimonial">
                             <img
                               src={test.img}
                               loading="lazy"
                               alt="Testimonial Avatar"
                               className="image-cover"
                             />
-                          </div>
+                          </div> */}
                           <div className="text-wrap-testimonial-tile">
                             <div className="text-small">{test.author}</div>
                             <div className="text-small text-gray-9">
-                              Marketing Manager
+                             {test?.title}
                             </div>
                           </div>
                         </div>

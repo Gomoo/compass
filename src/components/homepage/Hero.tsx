@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 function Hero() {
   return (
@@ -11,7 +12,7 @@ function Hero() {
           data-w-id="99ec7968-ed8b-c102-e032-0ce72f896a91"
           className="headline-home-hero"
         >
-          <div className="label-master">
+          {/* <div className="label-master">
             <div className="avatars-wrap-label">
               <div className="avatar-label">
                 <img
@@ -39,7 +40,7 @@ function Hero() {
               </div>
             </div>
             <div>More than 1,000 satisfied customers</div>
-          </div>
+          </div> */}
           <div className="heading-hero-home">
             <h1>The AI powered security for your digital assets.</h1>
             <div className="text-medium text-gray-11">
@@ -50,7 +51,7 @@ function Hero() {
           </div>
           <div className="button-wrap-hero-home">
             <a
-              href="/pricing"
+              href="#"
               data-wf--cta-main--variant="light"
               className="cta-main w-variant-6d766bdd-6002-c93a-5f94-a77d2e41a591 w-inline-block"
             >
@@ -68,7 +69,7 @@ function Hero() {
               ></div>
             </a>
             <a
-              href="/contact"
+              href="#"
               data-wf--cta-main--variant="base"
               className="cta-main w-inline-block"
             >
@@ -86,16 +87,15 @@ function Hero() {
         data-w-id="d6d78246-88d9-5947-a305-057b0292cbf1"
         className="image-wrap-home"
       >
-        <img
-          src="https://cdn.prod.website-files.com/68c06f93ac6a25b975a866fd/68c57bf7d1780ea07f56b747_d43da2aff39aa1ba84ac52fcd0b72730_softwaveimage.png"
-          loading="lazy"
+        <Image
+          src="/images/Analytics.png"
           sizes="(max-width: 4560px) 100vw, 4560px"
-          height="Auto"
-          alt="Bluewave"
-          srcSet="https://cdn.prod.website-files.com/68c06f93ac6a25b975a866fd/68c57bf7d1780ea07f56b747_d43da2aff39aa1ba84ac52fcd0b72730_softwaveimage-p-500.png 500w, https://cdn.prod.website-files.com/68c06f93ac6a25b975a866fd/68c57bf7d1780ea07f56b747_d43da2aff39aa1ba84ac52fcd0b72730_softwaveimage-p-800.png 800w, https://cdn.prod.website-files.com/68c06f93ac6a25b975a866fd/68c57bf7d1780ea07f56b747_d43da2aff39aa1ba84ac52fcd0b72730_softwaveimage-p-1080.png 1080w, https://cdn.prod.website-files.com/68c06f93ac6a25b975a866fd/68c57bf7d1780ea07f56b747_d43da2aff39aa1ba84ac52fcd0b72730_softwaveimage-p-1600.png 1600w, https://cdn.prod.website-files.com/68c06f93ac6a25b975a866fd/68c57bf7d1780ea07f56b747_d43da2aff39aa1ba84ac52fcd0b72730_softwaveimage-p-2000.png 2000w, https://cdn.prod.website-files.com/68c06f93ac6a25b975a866fd/68c57bf7d1780ea07f56b747_d43da2aff39aa1ba84ac52fcd0b72730_softwaveimage-p-2600.png 2600w, https://cdn.prod.website-files.com/68c06f93ac6a25b975a866fd/68c57bf7d1780ea07f56b747_d43da2aff39aa1ba84ac52fcd0b72730_softwaveimage-p-3200.png 3200w, https://cdn.prod.website-files.com/68c06f93ac6a25b975a866fd/68c57bf7d1780ea07f56b747_d43da2aff39aa1ba84ac52fcd0b72730_softwaveimage.png 4560w"
+          height={728}
+          alt="compass"
+          width={1376}
           className="home-hero-image"
         />
-        <div className="widget-home-hero first md:-mt-10! lg:mt-10!">
+        <div className="widget-home-hero first md:-mt-10! lg:mt-24!">
           <div className="text-h3 text-pink-gradient">250+</div>
           <div className="text-small text-gray-11">Satisfied Clients</div>
         </div>

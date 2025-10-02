@@ -14,7 +14,7 @@ export default function Home() {
     <div>
       <Navbar />
       <Hero />
-      <Trusted />
+      {/* <Trusted /> */}
       <Why />
       <Features />
       <Metric />
@@ -23,7 +23,7 @@ export default function Home() {
       {/* faq */}
       <FAQ />
       {/* ready to join */}
-      <section className="section">
+      {/* <section className="section">
         <div className="w-layout-blockcontainer main-container w-container">
           <div
             data-poster-url="https://cdn.prod.website-files.com/68c06f93ac6a25b975a866fd%2F68c5209381e827ca40852647_4779866-hd_1920_1080_30fps-poster-00001.jpg"
@@ -102,7 +102,7 @@ export default function Home() {
             <div className="overlay-cta"></div>
           </div>
         </div>
-      </section>
+      </section> */}
       <div className="sales-cta-master"></div>
       {/* footer */}
       <Footer />

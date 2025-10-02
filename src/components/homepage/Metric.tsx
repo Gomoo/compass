@@ -5,6 +5,7 @@ import {
   BriefcaseBusiness,
   Building2,
 } from "lucide-react";
+import Image from "next/image";
 
 function Metric() {
   return (
@@ -17,8 +18,8 @@ function Metric() {
           <h2 className="no-margins">Metrics Insights</h2>
           <div>
             <div className="text-medium text-gray-11">
-              Gain deeper understanding and drive strategic decisions with
-              actionable data analytics.
+              Protect Assets: Here are some of the social and digital assets you
+              can protect
             </div>
           </div>
         </div>
@@ -145,14 +146,12 @@ function Metric() {
               </div>
             </div> */}
           </div>
-          <img
-            src="https://cdn.prod.website-files.com/68c06f93ac6a25b975a866fd/68d54a1c60f6979bd41a45aa_Metrics.png"
-            loading="lazy"
-            id="w-node-a99cf78a-9111-96c2-9eb4-75ec2b6c2476-75a866e3"
-            sizes="100vw"
+          <Image
+            src="/images/Group 427319016.png"
             alt="Metrics"
-            srcSet="https://cdn.prod.website-files.com/68c06f93ac6a25b975a866fd/68d54a1c60f6979bd41a45aa_Metrics-p-500.png 500w, https://cdn.prod.website-files.com/68c06f93ac6a25b975a866fd/68d54a1c60f6979bd41a45aa_Metrics.png 750w"
             className="image-metrics"
+            height={375}
+            width={356}
           />
         </div>
       </div>

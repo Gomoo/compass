@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 function Features() {
@@ -51,8 +52,7 @@ function Features() {
               </h2>
               <div>
                 <div className="text-medium text-gray-11">
-                  Discover how our comprehensive suite of tools and capabilities
-                  can transform your operations.
+                  explore some of our amazing features today
                 </div>
               </div>
             </div>
@@ -83,27 +83,12 @@ function Features() {
               <div className="tabs-content-scale">
                 <div className="tab-content-scale">
                   <div className="tab-scale-image">
-                    <img
-                      loading="lazy"
-                      src="https://cdn.prod.website-files.com/68c06f93ac6a25b975a866fd/68d546ae1e67203bff9baab5_Search%20Modal.svg"
-                      alt="Search"
-                      className="image-tab-scale"
-                    />
-                  </div>
-                  <div className="tab-scale-image">
-                    <img
-                      loading="lazy"
-                      src="https://cdn.prod.website-files.com/68c06f93ac6a25b975a866fd/68d7df192051cb9faf0d735b_2c9546ba7eba2aaae9c79e0d45449dd0_Customizable%20Workflows.svg"
+                    <Image
+                      src="/images/Group 427319015.png"
+                      width={480}
+                      height={420}
                       alt="Customizable Workflows"
-                      className="image-tab-scale"
-                    />
-                  </div>
-                  <div className="tab-scale-image">
-                    <img
-                      loading="lazy"
-                      src="https://cdn.prod.website-files.com/68c06f93ac6a25b975a866fd/68d7df199ee6ffb431be8e75_b6287339170d6e72ec03396d6c52437b_Modal.svg"
-                      alt="modal"
-                      className="image-tab-scale"
+                      className="image-tab-scale object-contain md:object-cover"
                     />
                   </div>
                 </div>

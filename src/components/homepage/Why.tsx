@@ -11,12 +11,6 @@ function Why() {
           <h2 className="no-margins">
             Why teams love <span className="text-gradient">Compass</span>
           </h2>
-          <div className="subtitle-testimonials">
-            <div className="text-medium text-gray-11">
-              Compass unifies your orders, inventory, and customers so you can
-              manage your store with ease.
-            </div>
-          </div>
         </div>
         <div className="w-layout-grid bento-grid">
           <div
@@ -31,12 +25,12 @@ function Why() {
                 <br />
               </div>
             </div>
-            <div className="bento-inner-card">
+            <div className="bento-inner-card bg-[#F8F9FB]!">
               <img
-                src="https://cdn.prod.website-files.com/68c06f93ac6a25b975a866fd/68c452895e4b36f00ef8bc28_AI%20Powered.svg"
+                src="/images/Frame.png"
                 loading="lazy"
                 alt="AI Powered"
-                className="image-ai-powered"
+                className="image-ai-powered object-contain"
               />
             </div>
           </div>
@@ -54,10 +48,10 @@ function Why() {
             </div>
             <div className="bento-inner-card">
               <img
-                src="https://cdn.prod.website-files.com/68c06f93ac6a25b975a866fd/68c453371565cfa9688deab3_Store%20Updates.svg"
+                src="/images/Group 427318966.png"
                 loading="lazy"
                 alt="Stores"
-                className="image-stores"
+                className="image-stores object-cover"
               />
             </div>
           </div>
@@ -72,12 +66,12 @@ function Why() {
                 Get expert-guided recovery when accounts are suspended or hacked
               </div>
             </div>
-            <div className="bento-inner-card _3rd">
+            <div className="bento-inner-card _3rd bg-[#F8F9FB]!">
               <img
-                src="https://cdn.prod.website-files.com/68c06f93ac6a25b975a866fd/68c4533705e139d8c6758d18_749ced9fd143948892067fabc0ecb661_Product%20Management.svg"
+                src="/images/Block (3).png"
                 loading="lazy"
                 alt="Products"
-                className="image-product-management"
+                className="image-product-management object-contain!"
               />
             </div>
           </div>
@@ -94,12 +88,12 @@ function Why() {
                 Early alerts before violations or suspicious activity escalate.
               </div>
             </div>
-            <div className="bento-inner-card _4th">
+            <div className="bento-inner-card _4th bg-[#F8F9FB]!">
               <img
-                src="https://cdn.prod.website-files.com/68c06f93ac6a25b975a866fd/68c45337820731011fc45c23_Sales.svg"
+                src="/images/Block (4).png"
                 loading="lazy"
                 alt="Scales"
-                className="image-sales"
+                className="image-sales object-contain"
               />
             </div>
           </div>
