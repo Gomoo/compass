@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import React, { useState } from "react";
+import { smoothScrollTo } from "@/lib/smoothScroll";
 
 function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -28,29 +29,59 @@ function Navbar() {
                 height={30}
               />
             </a>
-            {/* <nav role="navigation" className="nav-menu w-nav-menu">
+            <nav role="navigation" className="nav-menu w-nav-menu">
               <div className="nav-menu-inner">
-                <a href="/about" className="nav-link w-inline-block">
+                <a
+                  href="#about"
+                  className="nav-link w-inline-block"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    smoothScrollTo("about");
+                  }}
+                >
                   <div>About</div>
                 </a>
-                <a href="/pricing" className="nav-link w-inline-block">
+                <a
+                  href="#features"
+                  className="nav-link w-inline-block"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    smoothScrollTo("features");
+                  }}
+                >
+                  <div>Features</div>
+                </a>
+                <a
+                  href="#pricing"
+                  className="nav-link w-inline-block"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    smoothScrollTo("pricing");
+                  }}
+                >
                   <div>Pricing</div>
                 </a>
-                <a href="/blog" className="nav-link w-inline-block">
-                  <div>Blog</div>
-                </a>
-                <a href="/contact" className="nav-link w-inline-block">
-                  <div>Contact</div>
+                <a
+                  href="#faq"
+                  className="nav-link w-inline-block"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    smoothScrollTo("faq");
+                  }}
+                >
+                  <div>FAQ</div>
                 </a>
               </div>
-            </nav> */}
+            </nav>
           </div>
           <div className="right-nav">
             <div className="nav-button-desktop">
               <a
-                href="#"
+                href="https://calendly.com/emmanuelakubo2019/30min"
                 data-wf--cta-main--variant="base"
                 className="cta-main w-inline-block"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <div className="button-text-mask">
                   <div button-text="" className="button-text">
@@ -118,35 +149,53 @@ function Navbar() {
         <div className="mobile-nav-menu fixed top-0 left-0 w-full h-full bg-[#f1f7fb] z-50 pt-20">
           <div className="flex flex-col items-center space-y-8 p-8">
             <a
-              href="#"
+              href="#about"
               className="text-xl font-medium text-gray-800 hover:text-blue-600 transition-colors"
-              onClick={toggleMobileMenu}
+              onClick={(e) => {
+                e.preventDefault();
+                smoothScrollTo("about");
+                toggleMobileMenu();
+              }}
             >
               About
             </a>
             <a
-              href="#"
+              href="#features"
               className="text-xl font-medium text-gray-800 hover:text-blue-600 transition-colors"
-              onClick={toggleMobileMenu}
+              onClick={(e) => {
+                e.preventDefault();
+                smoothScrollTo("features");
+                toggleMobileMenu();
+              }}
+            >
+              Features
+            </a>
+            <a
+              href="#pricing"
+              className="text-xl font-medium text-gray-800 hover:text-blue-600 transition-colors"
+              onClick={(e) => {
+                e.preventDefault();
+                smoothScrollTo("pricing");
+                toggleMobileMenu();
+              }}
             >
               Pricing
             </a>
             <a
-              href="#"
+              href="#faq"
               className="text-xl font-medium text-gray-800 hover:text-blue-600 transition-colors"
-              onClick={toggleMobileMenu}
+              onClick={(e) => {
+                e.preventDefault();
+                smoothScrollTo("faq");
+                toggleMobileMenu();
+              }}
             >
-              Blog
+              FAQ
             </a>
             <a
-              href="#"
-              className="text-xl font-medium text-gray-800 hover:text-blue-600 transition-colors"
-              onClick={toggleMobileMenu}
-            >
-              Contact
-            </a>
-            <a
-              href="#"
+              href="https://calendly.com/emmanuelakubo2019/30min"
+              target="_blank"
+              rel="noopener noreferrer"
               className="mt-8 px-8 py-3 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition-colors"
               onClick={toggleMobileMenu}
             >

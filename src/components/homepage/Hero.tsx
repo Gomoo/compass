@@ -4,6 +4,7 @@ import Image from "next/image";
 function Hero() {
   return (
     <section
+      id="hero"
       data-w-id="35a8e79c-e04c-7bc8-54ae-2f8189aecd24"
       className="section hero-home-section"
     >
@@ -51,7 +52,9 @@ function Hero() {
           </div>
           <div className="button-wrap-hero-home">
             <a
-              href="#"
+              href="https://calendly.com/emmanuelakubo2019/30min"
+              target="_blank"
+              rel="noopener noreferrer"
               data-wf--cta-main--variant="light"
               className="cta-main w-variant-6d766bdd-6002-c93a-5f94-a77d2e41a591 w-inline-block"
             >
@@ -69,7 +72,9 @@ function Hero() {
               ></div>
             </a>
             <a
-              href="#"
+              href="https://calendly.com/emmanuelakubo2019/30min"
+              target="_blank"
+              rel="noopener noreferrer"
               data-wf--cta-main--variant="base"
               className="cta-main w-inline-block"
             >
@@ -95,7 +100,7 @@ function Hero() {
           width={1376}
           className="home-hero-image"
         />
-        <div className="widget-home-hero first md:-mt-10! lg:mt-24!">
+        {/* <div className="widget-home-hero first md:-mt-10! lg:mt-24!">
           <div className="text-h3 text-pink-gradient">250+</div>
           <div className="text-small text-gray-11">Satisfied Clients</div>
         </div>
@@ -106,7 +111,7 @@ function Hero() {
         <div className="widget-home-hero third">
           <div className="text-h3 text-gradient">400+</div>
           <div className="text-small text-gray-11">App Store Reviews</div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

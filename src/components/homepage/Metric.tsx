@@ -9,7 +9,7 @@ import Image from "next/image";
 
 function Metric() {
   return (
-    <section className="section">
+    <section id="metrics" className="section">
       <div className="w-layout-blockcontainer main-container w-container">
         <div
           data-w-id="7daa6369-89a0-2852-9d42-e26bfd000179"

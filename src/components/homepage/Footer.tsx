@@ -1,5 +1,7 @@
+"use client";
 import Image from "next/image";
 import React from "react";
+import { smoothScrollTo } from "@/lib/smoothScroll";
 
 function Footer() {
   return (
@@ -27,28 +29,48 @@ function Footer() {
               <div className="column-footer">
                 <div className="text-gray-8">Resources</div>
                 <div className="link-list-footer">
-                  <a href="#" className="footer-link">
+                  <a
+                    href="#pricing"
+                    className="footer-link"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      smoothScrollTo("pricing");
+                    }}
+                  >
                     Pricing
                   </a>
-                  <a href="#" className="footer-link">
-                    Product
-                  </a>
-                  <a href="#" className="footer-link">
-                    Blog
+                  <a
+                    href="#features"
+                    className="footer-link"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      smoothScrollTo("features");
+                    }}
+                  >
+                    Features
                   </a>
                 </div>
               </div>
               <div className="column-footer">
                 <div className="text-gray-8">Company</div>
                 <div className="link-list-footer">
-                  <a href="#" className="footer-link">
+                  <a
+                    href="#about"
+                    className="footer-link"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      smoothScrollTo("about");
+                    }}
+                  >
                     About us
                   </a>
-                  <a href="#" className="footer-link">
+                  <a
+                    href="https://calendly.com/emmanuelakubo2019/30min"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="footer-link"
+                  >
                     Contact
-                  </a>
-                  <a href="#" className="footer-link">
-                    Privacy Policy
                   </a>
                 </div>
               </div>
@@ -62,7 +84,7 @@ function Footer() {
             <div className="text-small text-gray-8">
               Compass. All right reserved. © 2025
             </div>
-            <div className="footer-socials">
+            {/* <div className="footer-socials">
               <a
                 href="#"
                 target="_blank"
@@ -157,7 +179,7 @@ function Footer() {
                   </svg>
                 </div>
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

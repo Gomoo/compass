@@ -24,7 +24,7 @@ function FAQ() {
     },
   ];
   return (
-    <section className="section">
+    <section id="faq" className="section">
       <div className="w-layout-blockcontainer main-container small w-container">
         <div
           data-w-id="0739a684-9b21-0116-0dbc-01da547e95fd"

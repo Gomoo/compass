@@ -35,7 +35,7 @@ function Features() {
     },
   ];
   return (
-    <section className="section">
+    <section id="features" className="section">
       <div className="w-layout-blockcontainer main-container w-container">
         <div
           data-w-id="f633414d-88c6-2788-faff-0098069f027e"

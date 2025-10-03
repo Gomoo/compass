@@ -2,7 +2,7 @@ import React from "react";
 
 function Why() {
   return (
-    <section className="section">
+    <section id="about" className="section">
       <div className="w-layout-blockcontainer main-container w-container">
         <div
           data-w-id="01f09340-7441-886a-0d7a-6b8945ab97d8"

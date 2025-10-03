@@ -39,10 +39,10 @@ export default function RootLayout({
           content="Your business runs on digital assets — we safeguard them. From social media accounts to wallet addresses, we keep your digital presence secure and help you recover fast when things go wrong."
           property="og:description"
         />
-        <meta
+        {/* <meta
           content="https://cdn.prod.website-files.com/68c06f93ac6a25b975a866fd/68c13f0776ed5ac52e18f0c0_e750c4a89bb97f9e5a96777e5e5e4827_OG.jpg"
           property="og:image"
-        />
+        /> */}
         <meta
           content="Compass- The AI powered security for your digital assets."
           property="twitter:title"
@@ -54,7 +54,6 @@ export default function RootLayout({
         <meta property="og:type" content="website" />
         <meta content="summary_large_image" name="twitter:card" />
         <meta content="width=device-width, initial-scale=1" name="viewport" />
-        <meta content="Webflow" name="generator" />
         <link
           href="https://cdn.prod.website-files.com/68c06f93ac6a25b975a866fd/css/bluewave-template.webflow.shared.e5c8cd03b.css"
           rel="stylesheet"
@@ -72,7 +71,7 @@ export default function RootLayout({
             `,
           }}
         />
-        <link
+        {/* <link
           href="https://cdn.prod.website-files.com/68c06f93ac6a25b975a866fd/68c12aac109f56bcfbb41335_32.svg"
           rel="shortcut icon"
           type="image/x-icon"
@@ -80,7 +79,7 @@ export default function RootLayout({
         <link
           href="https://cdn.prod.website-files.com/68c06f93ac6a25b975a866fd/68c12aaebe242750baef2b35_256.svg"
           rel="apple-touch-icon"
-        />
+        /> */}
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
@@ -108,10 +107,10 @@ export default function RootLayout({
           src="https://cdn.prod.website-files.com/gsap/3.13.0/gsap.min.js"
           type="text/javascript"
         ></script>
-        <script
+        {/* <script
           src="https://cdn.prod.website-files.com/gsap/3.13.0/ScrollTrigger.min.js"
           type="text/javascript"
-        ></script>
+        ></script> */}
         <link
           rel="stylesheet"
           href="https://unpkg.com/lenis@1.2.3/dist/lenis.css"

@@ -2,7 +2,7 @@ import React from "react";
 
 function Pricing() {
   return (
-    <section className="section pricing-home-section">
+    <section id="pricing" className="section pricing-home-section">
       <div className="w-layout-blockcontainer main-container w-container">
         <div
           data-w-id="f53bf41a-16d3-6383-e1fd-cad81a661398"
@@ -155,7 +155,9 @@ function Pricing() {
                   </div>
                   <div className="plan-button-tile">
                     <a
-                      href="/product-no-cms"
+                      href="https://calendly.com/emmanuelakubo2019/30min"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       data-wf--cta-main--variant="base"
                       className="cta-main w-inline-block"
                     >
@@ -310,7 +312,9 @@ function Pricing() {
                   </div>
                   <div className="plan-button-tile">
                     <a
-                      href="/product-no-cms"
+                      href="https://calendly.com/emmanuelakubo2019/30min"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       data-wf--cta-main--variant="accent"
                       className="cta-main w-inline-block"
                     >
@@ -463,7 +467,9 @@ function Pricing() {
                   </div>
                   <div className="plan-button-tile">
                     <a
-                      href="/product-no-cms"
+                      href="https://calendly.com/emmanuelakubo2019/30min"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       data-wf--cta-main--variant="base"
                       className="cta-main w-inline-block"
                     >
