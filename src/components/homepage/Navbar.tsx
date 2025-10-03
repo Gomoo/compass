@@ -29,8 +29,11 @@ function Navbar() {
                 height={30}
               />
             </a>
-            <nav role="navigation" className="nav-menu w-nav-menu">
-              <div className="nav-menu-inner">
+            <nav
+              role="navigation"
+              className="nav-menu w-nav-menu hidden lg:!block"
+            >
+              <div className="nav-menu-inner ">
                 <a
                   href="#about"
                   className="nav-link w-inline-block"
